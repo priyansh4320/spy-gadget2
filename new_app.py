@@ -12,7 +12,7 @@ import pandas as pd
 
 import streamlit as st
 
-import json
+
 import requests
 
 ## define face extraction--------------------------------------------------------------------------
