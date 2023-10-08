@@ -97,7 +97,9 @@ if extract_face_btn:
     else:
         vid = uploaded_video.name
         img = face_extraction(vid)
+        st.write(img)
         dlinks =[]
+        '''
         for idx, i in enumerate(img):
             img_array = Image.fromarray(np.array(i))
             buffered = BytesIO()
@@ -109,4 +111,4 @@ if extract_face_btn:
             dlinks.append(f"data:file/jpg;base64,{img_b64}")
             
         st.write(res)
-
+        '''
