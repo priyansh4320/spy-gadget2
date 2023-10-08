@@ -1,0 +1,9 @@
+opencv-python
+opencv-python-headless
+facedetector-py
+filetype
+numpy
+pytest
+pandas
+requests
+json
