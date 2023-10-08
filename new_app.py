@@ -107,6 +107,6 @@ if extract_face_btn:
             href = f'<a href="data:file/jpg;base64,{img_b64}" download="image{idx + 1}.jpg">Download Image {idx + 1}</a>'
             dlink = st.markdown(href, unsafe_allow_html=True)
             dlinks.append(f"data:file/jpg;base64,{img_b64}")
-        res = rev_search(img[0])
+            
         st.write(res)
 
